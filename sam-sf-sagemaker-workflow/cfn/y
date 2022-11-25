@@ -1,0 +1,13 @@
+version = 0.1
+[y]
+[y.deploy]
+[y.deploy.parameters]
+stack_name = "sam-sf-workflow"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-5cluuvtp5g14"
+s3_prefix = "sam-sf-workflow"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "StateMachineName=\"MLOpsStepFunction\" S3ModelBucket=\"mlops-cicd\""
+image_repositories = []
+disable_rollback = true

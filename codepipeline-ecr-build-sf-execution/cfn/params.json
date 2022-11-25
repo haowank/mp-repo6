@@ -1,0 +1,23 @@
+[
+    {
+      "ParameterKey": "GitHubRepo",
+      "ParameterValue": "mp-repo5"
+    },
+    {
+        "ParameterKey": "GitHubBranch",
+        "ParameterValue": "master"
+      },
+      {
+        "ParameterKey": "GitHubToken",
+        "ParameterValue": "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"
+      },
+      {
+        "ParameterKey": "GitHubUser",
+        "ParameterValue": "haowank"
+      },
+      {
+        "ParameterKey": "MlOpsStepFunctionArn",
+        "ParameterValue": "arn:aws:states:ap-southeast-1:504349468854:stateMachine:MLOpsStepFunction-504349468854"
+      }
+]
+
